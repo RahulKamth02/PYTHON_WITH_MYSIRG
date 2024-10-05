@@ -7,4 +7,5 @@
 a=10
 b=20
 c=30
-print(a,"\n",b,"\n",c)
+# print(a,"\n",b,"\n",c)
+print(a,b,c,sep='\n')

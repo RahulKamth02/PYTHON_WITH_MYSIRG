@@ -1,6 +1,4 @@
-import datetime
-current_date=datetime.now()
-day=current_date.day
-month=current_date.month
-year=current_date.year
-print(day/month/year)
+day =27
+month=11
+year=2024
+print(day,month,year,sep='/')
