@@ -8,7 +8,6 @@ paper = "📃"
 scissors = '✂'
 gameIcons = [rock, paper, scissors]
 import random
-
 user_choice=int(input("Enter you choice : Type 0 for Rock ,1 for pape ,2 for sessiors :"))
 if user_choice>3 or user_choice<0:
     print("you entered invalid choice,you loss")
