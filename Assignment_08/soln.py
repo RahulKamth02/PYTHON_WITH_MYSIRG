@@ -10,16 +10,16 @@ import math
 
 # Q3
 # r=int(input("Enter a radius :"))
-# circle=math.pi*r*r
+# circle=math.pi*r**2
 # print("Area of circle is :",circle)
 
 #  Q4 
 # x=int(input("Enter a number :"))
-# print("Square is is ",x*x)
+# print("Square is is ",x**2)
 
 
 # Q5
 
 
-x=input("Enter a character :")
-print(x,ord(x))
+ch=input("Enter a character :")
+print(ch,ord(ch))
