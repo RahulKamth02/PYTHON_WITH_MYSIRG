@@ -16,6 +16,16 @@ else:
 
 
 # Q3.
+a=float(input("Enter a cofficient a:"))
+b=float(input("Enter a cofficient b:"))
+c=float(input("Ener a cofficient c:"))
+discriminant=b**2-4*a*c;
+if discriminant>0:
+    print("distinct roots")
+elif discriminant==0:
+    print("real and equal root ")
+else:
+    print("imaginary root ")
 
 
 # Q4.
